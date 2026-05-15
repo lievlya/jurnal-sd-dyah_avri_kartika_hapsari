@@ -20,3 +20,19 @@
 
 }
 
+---
+# API Contract Login
+**Endpoint:** /api/v1/login
+**Method:** POST
+**Request Body (JSON):**
+{
+  "email": "mhs@univ.ac.id",
+  "password": "rahasia_password_123"
+}
+**Response Body (JSON):**
+{
+  "status": "success",
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "user_id": 1
+}
+
